@@ -1,0 +1,11 @@
+{
+  "name": "drum-kit-app",
+  "version": "1.0.0",
+  "description": "Its an app to simulate a drum using a keyboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Rosales",
+  "license": "ISC"
+}
