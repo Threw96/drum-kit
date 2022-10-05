@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-
-html{
+:root{
     padding: 0;
     margin: 0;
     min-height: max-content;
     font-family: 'Roboto', sans-serif;
     background: url("/images/drum.jpg");
     background-size: cover;
+
+}
+
+html{
+    
 }
 
 h1{
