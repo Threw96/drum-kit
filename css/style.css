@@ -16,9 +16,35 @@ html{
     align-items: center;
 }
 
+.drum{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    min-width: 100vw;
+    min-height: 50vh;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-self: center  ;
+    color: whitesmoke;
+    min-width: 1rem;
+    min-height: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: #000000 solid 3px;
+    border-radius: 5px;
+}
+
 
 h1{
-    color: rgb(228, 228, 228);
+    color: whitesmoke;
     margin: 1rem;
     padding: 1rem;
     font-weight: bold;
