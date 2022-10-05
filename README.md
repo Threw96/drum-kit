@@ -1,1 +1,2 @@
-# drum-kit
+# My first day in Js 30 challenge 
+# drum-kit simulator finished 
