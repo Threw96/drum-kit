@@ -10,10 +10,6 @@
 
 }
 
-html{
-    
-}
-
 h1{
     color: whitesmoke;
     margin: 1rem;
@@ -71,14 +67,42 @@ h1{
 footer{
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 3rem;
     background-color: #1f1e1e;
     text-align: center;
 }
 .footer{
+    width: 100vw;
     font-size: 1rem;
     color: whitesmoke;
+}
+
+
+@media (orientation: portrait) and (min-width: 360px){
+    :root{
+        background-size: cover;
+        background-position: center bottom;
+    }
+    .container{
+        text-align: center;
+    }
+    .keys{
+        gap: 0.9rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (orientation: landscape)and (min-height: 768px){
+    .keys{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        transform: scale(0.8);
+    }
 }
 
 
